@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1081616532531",
+    "firebase_url": "https://tour-mate-2b433.firebaseio.com",
+    "project_id": "tour-mate-2b433",
+    "storage_bucket": "tour-mate-2b433.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081616532531:android:b13c4692bcc0ec62",
+        "android_client_info": {
+          "package_name": "hunter.black.tourmateblackhunter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081616532531-p3uiadpficfolquit87pt8nq3bkofcj7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKjuvWas8AWV6z_xpAhwGxw7WnWEuZm-Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

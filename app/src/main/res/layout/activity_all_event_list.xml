@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AllEventListActivity"
+    android:orientation="vertical">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/AllEventlistView"
+        android:layout_weight="9" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/CheckListButtoninAllEventListView"
+            android:src="@android:drawable/ic_menu_agenda"
+            android:layout_weight="1"
+            android:background="@color/buttonTwoColor"
+            android:onClick="getTestData"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/addNewJourneyButtoninAllEventListActivityView"
+            android:src="@android:drawable/ic_menu_add"
+            android:layout_weight="1"
+            android:background="@color/buttonThreeColor"
+            android:onClick="addNewJourneyButtonActionInAllEventListView"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/myCurrentLocationBTNinAllEventListView"
+            android:src="@android:drawable/ic_dialog_map"
+            android:layout_weight="1"
+            android:background="@color/buttonTwoColor"
+            android:onClick="testingHomeFragment"/>
+    </LinearLayout>
+</LinearLayout>

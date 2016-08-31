@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RowDetailsActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/motherOfAllFragment"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8">
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/homeOfExpenseButtonInRowDetailsActivityView"
+            android:layout_weight="1"
+            android:src="@android:drawable/ic_input_get"
+            android:background="@color/buttonThreeColor"/>
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/nearbyPlaceInRowDetailsActivityViewButton"
+            android:layout_weight="1"
+            android:src="@android:drawable/ic_dialog_map"
+            android:background="@color/buttonThreeColor"
+            android:layout_marginLeft="1dp" />
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/eventTimelineInRowDetailsActivityViewButton"
+            android:layout_weight="1"
+            android:src="@android:drawable/ic_menu_camera"
+            android:background="@color/buttonThreeColor"
+            android:layout_marginLeft="1dp" />
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/progessReportPiChartInRowDetailsActivityViewButton"
+            android:layout_weight="1"
+            android:src="@android:drawable/radiobutton_on_background"
+            android:background="@color/buttonThreeColor"
+            android:layout_marginLeft="1dp" />
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/myLocationInRowDetailsActivityViewButton"
+            android:layout_weight="1"
+            android:src="@android:drawable/ic_menu_mylocation"
+            android:background="@color/buttonThreeColor"
+            android:layout_marginLeft="1dp" />
+    </LinearLayout>
+
+</LinearLayout>

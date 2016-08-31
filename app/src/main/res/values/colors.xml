@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bgColorOfText">#0099CC</color>
+    <color name="colorButtonPressed">#0092ff</color>
+    <color name="colorButtonShadow">#4799E8</color>
+    <color name="travellers_bacground">#4d4d4d</color>
+    <color name="buttonOneColor">#f76741</color>
+    <color name="buttonTwoColor">#61b629</color>
+    <color name="buttonThreeColor">#f09710</color>
+    <color name="buttonFourColor">#58aee2</color>
+    <color name="buttonFiveColor">#883fa8</color>
+    <color name="text_color_of_from_date_to_date">#ffffff</color>
+</resources>

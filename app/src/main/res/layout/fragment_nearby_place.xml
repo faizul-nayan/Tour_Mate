@@ -1,0 +1,195 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.NearbyPlaceFragmentActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:name="com.a4bit.we.tourmate.ui.NearbyPlaceFragmentActivity"
+            android:id="@+id/nearbyPlaceMapfragment" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView"
+            android:layout_below="@+id/nearbyPlaceMapfragment"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/nearbyPlaceMapfragment"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:columnCount="4"
+                android:rowCount="4">
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/nearbyCngStationBTN"
+                    android:layout_column="0"
+                    android:layout_row="0"
+                    android:layout_columnWeight="1"
+                    android:src="@android:drawable/ic_menu_agenda"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/nearbyRestaurentBTN"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:layout_columnWeight="1"
+                    android:src="@android:drawable/ic_input_get"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/nearbySchooBTN"
+                    android:layout_columnWeight="1"
+                    android:src="@android:drawable/radiobutton_on_background"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/nearbyMosqueBTN"
+                    android:layout_columnWeight="1"
+                    android:src="@android:drawable/ic_btn_speak_now"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageButton9"
+                    android:layout_column="0"
+                    android:layout_row="1"
+                    android:layout_columnWeight="1"
+                    android:src="@android:drawable/btn_star_big_on"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageButton10"
+                    android:layout_row="1"
+                    android:layout_columnWeight="1"
+                    android:layout_column="1"
+                    android:src="@android:drawable/ic_input_get"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageButton11"
+                    android:layout_column="2"
+                    android:layout_columnWeight="1"
+                    android:layout_row="1"
+                    android:src="@android:drawable/btn_star"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageButton12"
+                    android:layout_row="1"
+                    android:layout_columnWeight="1"
+                    android:layout_column="3"
+                    android:src="@android:drawable/ic_input_get"/>
+
+
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageButton00"
+                    android:layout_column="0"
+                    android:layout_row="2"
+                    android:layout_columnWeight="1"
+                    android:src="@android:drawable/btn_star_big_on"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageButton100"
+                    android:layout_row="2"
+                    android:layout_columnWeight="1"
+                    android:layout_column="1"
+                    android:src="@android:drawable/ic_input_get"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageButton110"
+                    android:layout_column="2"
+                    android:layout_columnWeight="1"
+                    android:layout_row="2"
+                    android:src="@android:drawable/btn_star"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageButton120"
+                    android:layout_row="2"
+                    android:layout_columnWeight="1"
+                    android:layout_column="3"
+                    android:src="@android:drawable/ic_input_get"/>
+
+
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageButton09"
+                    android:layout_column="0"
+                    android:layout_row="3"
+                    android:layout_columnWeight="1"
+                    android:src="@android:drawable/btn_star_big_on"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageButton010"
+                    android:layout_row="3"
+                    android:layout_columnWeight="1"
+                    android:layout_column="1"
+                    android:src="@android:drawable/ic_input_get"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageButton011"
+                    android:layout_column="2"
+                    android:layout_columnWeight="1"
+                    android:layout_row="3"
+                    android:src="@android:drawable/btn_star"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageButton012"
+                    android:layout_row="3"
+                    android:layout_columnWeight="1"
+                    android:layout_column="3"
+                    android:src="@android:drawable/ic_input_get"/>
+
+
+
+            </GridLayout>
+        </ScrollView>
+
+        <ImageButton
+            android:id="@+id/fullScreenMapBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:src="@android:drawable/ic_menu_mapmode"/>
+
+    </RelativeLayout>
+</FrameLayout>
